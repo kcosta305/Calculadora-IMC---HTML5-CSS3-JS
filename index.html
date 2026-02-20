@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Crescer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>📏 Calculadora de IMC</h1>
+
+    <div class="container">
+        <h1>Calcule seu IMC</h1>
+        <p>Insira os valores de peso e altura para calcular seu IMC.</P>
+
+    <div>
+        <label>Meu peso (kg):</label>
+        <input id="peso" type="number" placeholder="Ex: 20">
+    </div>
+
+    <br>
+
+    <div>
+        <label>Minha altura (m):</label>
+        <input id="altura" type="number" step="0.01" placeholder="Ex:1.10">
+    </div>
+
+    <br>
+
+    <div>
+
+          <button type="buttton" onclick="calcularTudo()">Calcular</button>
+
+          <hr> <p id="resultado-imc">O seu IMC é: </p>
+          <p id="classificacao">Classificação: </p>
+
+    </div>
+
+  
+    </div> <script src="script.js"></script>
+    
+</body>
+</html>
